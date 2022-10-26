@@ -9,11 +9,11 @@ class PlaceOrderState extends StatefulWidget {
 }
 
 class _PlaceOrderStateState extends State<PlaceOrderState> {
-  get string => null;
+  
 
   @override
   Widget build(BuildContext context) {
-    String title;
+    
     return SafeArea(
       child: Scaffold(
         appBar: AppBar( title: const Text("PLACE ORDER"),
